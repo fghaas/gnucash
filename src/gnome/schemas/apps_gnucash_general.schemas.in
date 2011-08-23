@@ -526,6 +526,24 @@
     </schema>
 
     <schema>
+      <key>/schemas/apps/gnucash/general/register/show_account_codes</key>
+      <applyto>/apps/gnucash/general/register/show_account_codes</applyto>
+      <owner>gnucash</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Display account codes.</short>
+        <long>
+          Show account codes in the register and in the account
+          selection popup. The default behaviour is to suppress the
+          account code. Activating this option is useful if you
+          typically refer to accounts by number, as is common in some
+          accounting schemes.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
       <key>/schemas/apps/gnucash/general/report/use_new_window</key>
       <applyto>/apps/gnucash/general/report/use_new_window</applyto>
       <owner>gnucash</owner>
